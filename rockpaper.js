@@ -23,7 +23,7 @@ const playgame=(userchoies)=>{
     }else{
         userwin=true
         if (userchoies==='Rock'){
-            userwin=computerchoies==='sciccor'? true : false
+            userwin=computerchoies==='Scissors'? true : false
         }else if(userchoies==='Paper'){
             userwin=computerchoies==='Rock'? true : false
         }else{
